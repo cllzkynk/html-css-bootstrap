@@ -1,0 +1,37 @@
+nav.menu{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    background-color: rgb(214, 214, 214);
+    width:300px;
+}
+
+ul.menu{
+    list-style-type: '🧧';
+    padding: 0;
+    list-style-position: inside;
+
+}
+
+.active{
+    background-color: gray;
+}
+
+li.item{
+    padding: 1rem;
+}
+
+a.link{
+    text-decoration: none;
+    font-weight: 400;
+    color:black;
+}
+
+a.link:visited{
+    color:black;
+}
+
+a.link:hover{
+    background-color: coral;
+    color:antiquewhite;
+}
+

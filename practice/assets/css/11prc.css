@@ -1,0 +1,20 @@
+body {
+  background: url("../img/pattern3.jpg") center/cover no-repeat;
+}
+
+section {
+  border: 3px solid brown;
+  border-radius: 25px;
+  font-size: larger;
+  font-weight: bolder;
+}
+h1,
+h2 {
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+.icerik {
+  display: flex;
+}

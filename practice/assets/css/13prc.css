@@ -1,0 +1,33 @@
+body {
+  background-color: azure;
+}
+h1,
+h2 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 50px;
+}
+.container div:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.icerik {
+  display: flex;
+  gap: 50px;
+}
+.icerik li {
+  padding: 10px;
+  list-style-type: none;
+}
+.icerik p::first-letter {
+  font-weight: bolder;
+  font-size: 75px;
+}
+.icerik li::first-letter {
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: coral;
+}

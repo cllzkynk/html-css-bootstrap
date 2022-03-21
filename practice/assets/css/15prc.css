@@ -1,0 +1,30 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  color: crimson;
+  transition: color 1s;
+}
+h1:hover {
+  color: black;
+}
+
+.container {
+  background-color: aqua;
+  display: flex;
+  position: relative;
+}
+.resim {
+  background: url("https://media.istockphoto.com/photos/coral-or-pink-daisy-chamomile-isolated-on-white-background-picture-id1136423603?s=612x612")
+    center/cover;
+  width: 20%;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.resim:hover {
+  transform: rotateY(180deg);
+}

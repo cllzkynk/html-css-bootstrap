@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(116, 164, 196);
+}
+h1,
+h3 {
+  text-align: center;
+  color: white;
+  background-color: rgb(73, 200, 223);
+}
+ul {
+  background-color: bisque;
+  width: 200px;
+}
+table {
+  background-color: beige;
+}

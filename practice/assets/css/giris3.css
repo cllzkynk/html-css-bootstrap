@@ -1,0 +1,19 @@
+body {
+  background: url("../img/resim4.jpg") center/cover no-repeat;
+}
+div {
+  background-color: bisque;
+  width: 230px;
+}
+h1,
+h2,
+h3 {
+  background-color: aliceblue;
+  text-align: center;
+}
+.gunler {
+  background-color: rgb(99, 66, 16);
+}
+.mevsimler {
+  background-color: beige;
+}

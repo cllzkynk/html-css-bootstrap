@@ -1,0 +1,21 @@
+.kutu{
+    background-color: chocolate;
+    height: 100vh;
+}
+
+.btn{
+    background-color: blue;
+    color:white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+#anahtar{
+    display:none;
+}
+
+
+#anahtar:checked + .kutu{
+    background-color: blueviolet;
+}

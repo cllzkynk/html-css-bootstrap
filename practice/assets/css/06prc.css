@@ -1,0 +1,38 @@
+body {
+  background-color: palegreen;
+  text-align: center;
+}
+.container {
+  background-color: rgb(255, 240, 250);
+  margin: 55px;
+  padding: 30px;
+}
+ol {
+  list-style-position: inside;
+}
+div .ilk ol {
+  background-color: bisque;
+  width: 300px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: 0;
+}
+div .ilk ol li {
+  padding: 5px;
+}
+
+div .ikinci ol {
+  background-color: salmon;
+  width: 400px;
+  padding: 30px;
+}
+
+div .ikinci ol li {
+  padding: 15px;
+}
+div .icerik {
+  background-color: saddlebrown;
+}
+div .aciklama {
+  background-color: rgb(72, 144, 206);
+}

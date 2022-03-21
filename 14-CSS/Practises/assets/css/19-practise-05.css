@@ -1,0 +1,37 @@
+nav.menu{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    background-color: rgb(214, 214, 214);
+    width:300px;
+}
+
+nav.menu ul{
+    list-style-type: '🧧';
+    padding: 0;
+    list-style-position: inside;
+
+}
+
+nav.menu .active{
+    background-color: gray;
+}
+
+nav.menu li{
+    padding: 1rem;
+}
+
+nav.menu a{
+    text-decoration: none;
+    font-weight: 400;
+    color:black;
+}
+
+nav.menu a:visited{
+    color:black;
+}
+
+nav.menu a:hover{
+    background-color: coral;
+    color:antiquewhite;
+}
+

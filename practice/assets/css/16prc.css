@@ -1,0 +1,61 @@
+body {
+  background-color: blanchedalmond;
+}
+header {
+  padding: 2rem;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.menu,
+.icerik,
+.iletisim {
+  display: flex;
+  gap: 3rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 1s;
+}
+a:hover {
+  color: white;
+}
+.alt-menu {
+  display: none;
+}
+.list:hover .alt-menu {
+  display: inline-block;
+}
+h1,
+h2 {
+  text-align: center;
+  color: crimson;
+  transition: color 1s;
+}
+h1:hover,
+h2:hover {
+  color: black;
+}
+.container {
+  background: url("https://media.istockphoto.com/photos/bir-gn-doumu-ve-esiz-manzara-picture-id1364272105?k=20&m=1364272105&s=612x612&w=0&h=lcXGpsRixUM3jg2GbzkdSNQ6WVrHNGFzfLE1Njyduj8=")
+    center/cover no-repeat;
+
+  border: 5px solid purple;
+  position: relative;
+}
+.aciklama {
+  text-align: center;
+  font-weight: bolder;
+}
+.aciklama img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

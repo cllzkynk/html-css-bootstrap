@@ -1,0 +1,46 @@
+:root{
+    --color1: rgb(243, 169, 169);
+    --color2: rgb(168, 10, 10);
+}
+
+nav{
+  display: inline-block;
+}
+
+nav.menu ul li{
+
+}
+
+nav.menu input{
+    width:7rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav.menu:hover ul{
+    display: block;
+}
+
+nav.menu ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: none;
+}
+
+nav.menu a{
+    background-color: var(--color1);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color2);
+    width:5rem;
+    text-align: center;
+    margin-right:1rem;
+}
+
+nav.menu .active,
+nav.menu a:hover{
+    background-color: var(--color2);
+    color:white;
+}

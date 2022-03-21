@@ -1,0 +1,55 @@
+:root{
+  --color1: #3c342c;
+  --color2: #fb9b8b;
+}
+
+body{
+  padding:1rem;
+}
+
+.toggler{
+  background-color:var(--color1);
+  padding:0.3rem;
+  color:var(--color2);
+  cursor: pointer;
+  border-radius:0.3rem;
+  display: inline-block;
+}
+
+#switch:checked + .menu{
+  display:block;
+}
+
+#switch{
+  display:none;
+}
+.menu{
+  display:none;
+}
+
+.menu ul{
+  list-style: none;
+  padding:0.5rem;
+  margin:0;
+  background-color: var(--color2);
+  display:inline-block;
+  border-radius: 0.3rem;
+}
+
+.menu a::before{
+  font: var(--fa-font-solid);
+  content: "\f105";
+  margin-right: 0.2rem;
+}
+
+.menu a{
+  padding:0.3rem 1rem;
+  display: block;
+  text-decoration:none;
+  color:var(--color1);
+}
+
+.menu a:hover{
+  background-color: var(--color1);
+  color: var(--color2);
+}

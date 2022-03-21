@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(182, 123, 52);
+}
+h1,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.buyuk {
+  background-color: bisque;
+}
+.orta {
+  background-color: rgb(184, 184, 101);
+}
+ol {
+  width: 150px;
+  background-color: blanchedalmond;
+}
+table {
+  font-size: 1.3rem;
+  background-color: rgb(172, 146, 115);
+}

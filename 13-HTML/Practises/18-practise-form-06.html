@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><label for="firstname">Adı</label></td>
+                            <td><input type="text" name="firstname" id="firstname" required minlength="2" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastname">Soyadı</label></td>
+                            <td><input type="text" name="lastname" id="lastname" required minlength="2" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Cinsiyet</td>
+                            <td>
+                                <input type="radio" name="gender" id="genderM" required><label for="genderM">Erkek</label>
+                                <input type="radio" name="gender" id="genderW"><label for="genderW">Kadın</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="state">İlçe</label></td>
+                            <td>
+                                <select name="state" id="state" required>
+                                    <option value="" disabled selected>Seçiniz</option>
+                                    <option value="1">Beşiktaş</option>
+                                    <option value="2">Taksim</option>
+                                    <option value="3">Kabataş</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Eposta</label></td>
+                            <td><input type="email" name="email" id="email" required maxlength="80"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="site">Kişisel site</label></td>
+                            <td><input type="url" name="site" id="site"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Telefon</label></td>
+                            <td><input type="tel" name="phone" id="phone" placeholder="+90(XXX) XXX - XX - XX"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Hobiler</td>
+                            <td>
+                                <input type="checkbox" name="football" id="football"> <label for="football">Futbol</label>  <br>
+                                <input type="checkbox" name="basketball" id="basketball"> <label for="basketball">Basketbol</label> <br>
+                                <input type="checkbox" name="volleyball" id="volleyball"> <label for="volleyball">Voleybol</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="photo">Profil Fotoğrafı</label></td>
+                            <td><input type="file" name="photo" id="photo" required placeholder="Dosya seçiniz"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="birthdate">Doğum Tarihi</label></td>
+                            <td><input type="date" name="birthdate" id="birthdate" required max="2012-01-01"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Adres</label></td>
+                            <td><textarea name="address" id="address" cols="30" rows="4" maxlength="100"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Kaydet"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

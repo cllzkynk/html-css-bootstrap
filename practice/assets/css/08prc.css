@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+  text-align: center;
+}
+.container {
+  background-color: blanchedalmond;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+.icerik {
+  width: 200px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+.liste {
+  width: 150px;
+  background-color: azure;
+  padding: 10px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+}
+div .liste ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+h1,
+h3 {
+  border-radius: 15px;
+  background-color: coral;
+}
+
+h1:hover,
+h3:hover {
+  background-color: aquamarine;
+}
+.diger {
+  background-color: chocolate;
+  border: 1px solid red;
+  border-radius: 15px;
+}

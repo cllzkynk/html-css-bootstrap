@@ -1,0 +1,86 @@
+:root{
+    --color1: #eeb439;
+    --color2: #602c44;
+    --color3: #d19fb8;
+  }
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+main{
+    padding-left: 50px;
+}
+
+main header{
+    background-color: var(--color3);
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+main section{
+    padding:2rem;
+}
+
+
+.sol-menu{
+    background-color: var(--color1);
+    width: 250px;
+    height:100vh;
+    position: absolute;
+    left: -200px;
+    top:0;
+    transition: left 1s;
+}
+
+.sol-menu ul{
+    list-style: none;
+    padding: 0;
+    margin:2rem 0;
+}
+
+.sol-menu a{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    color: var(--color2);
+    position: relative;
+
+}
+
+.sol-menu a:hover::before{
+    font: var(--fa-font-solid);
+    position: absolute;
+    left:1rem;
+    content: "\f0da";
+}
+
+.sol-menu .title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: var(--color2);
+    padding: 0.5rem 1rem;
+    color:#ececec;
+}
+
+.sol-menu .title label{
+    cursor: pointer;
+    transition: transform 0.3s linear 0.3s;
+
+}
+
+#switch{
+    display:none;
+}
+
+#switch:checked + .sol-menu{
+    left:0;
+}
+
+#switch:checked + .sol-menu .title label{
+    transform: rotate(180deg);
+}
+

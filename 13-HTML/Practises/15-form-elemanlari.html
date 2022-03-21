@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemenaları</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" name="ad" id="ad" minlength="2" maxlength="30" required><br>
+        <input type="number" name="yas" id="yas"  min="8" max="100"><br>
+        <input type="email" name="eposta" id="eposta" required><br>
+        <input type="password" name="sifre" id="sifre"><br>
+        <input type="search" name="q" id="q"><br>
+        <input type="url" name="site" id="site"><br>
+        <input type="tel" name="telefon" id="telefon" required><br>
+        <input type="hidden" name="id" value="456">
+        
+
+        <input type="checkbox" name="futbol" id="futbol"><label for="futbol">Futbol</label>
+        <input type="checkbox" name="muzik" id="muzik"><label for="muzik">Müzik</label>
+        <input type="checkbox" name="kayak" id="kayak"><label for="kayak">Kayak</label>
+        <br>
+        <input type="radio" name="cinsiyet" id="cinsiyetE"><label for="cinsiyetE">Erkek</label>
+        <input type="radio" name="cinsiyet" id="cinsiyetK"><label for="cinsiyetK">Kadın</label>
+        <br>
+        <label for="profil">PRofil foto seç</label><input type="file" name="profil" id="profil">
+        <br>
+        <input type="color" name="profilRengi" id="profilRengi">
+        <br>
+        <input type="range" name="" id="">
+        <br>
+        <input type="date" name="dogum" id="dogum"><br>
+        <input type="time" name="baslangic" id="baslangic">
+        <input type="datetime" name="is" id="is">
+        <input type="datetime-local" name="is2" id="is2">
+        <input type="month" name="" id="">
+        <input type="week" name="" id="">
+        <br>
+
+        <select name="sehir" id="sehir" size="3" multiple>
+            <option>Seçiniz</option>
+            <option value="1">Adana</option>
+            <option value="2">Adıyaman</option>
+            <option value="3">Afyon</option>
+        </select>
+        <br>
+
+        <textarea name="ozgecmis" id="ozgecmis" cols="30" rows="10"></textarea>
+        <input type="submit" value="GÖNDER">
+    </form>
+</body>
+</html>

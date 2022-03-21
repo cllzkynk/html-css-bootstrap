@@ -1,0 +1,33 @@
+body {
+  background-color: aqua;
+}
+.container {
+  margin: 50px;
+  background-color: bisque;
+  text-align: center;
+  padding-bottom: 20px;
+  color: black;
+}
+div {
+  color: white;
+}
+.pembe {
+  background-color: pink;
+  width: 200px;
+  margin: auto;
+}
+.mavi {
+  background-color: blue;
+  width: 250px;
+}
+.yesil {
+  margin-left: auto;
+  margin-right: 0;
+  background-color: green;
+  width: 300px;
+}
+.sari {
+  background-color: yellow;
+  width: 350px;
+  color: black;
+}

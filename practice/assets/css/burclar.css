@@ -1,0 +1,50 @@
+/*GENEL*/
+a {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px;
+}
+
+/*BAĞLANTI SAYFAMIZ*/
+section.baglanti {
+  background-color: lightsalmon;
+}
+section.baglanti h1 {
+  text-align: center;
+}
+section.baglanti p {
+  margin: 20px;
+}
+section.baglanti a::after {
+  content: "➡️";
+}
+/*Burçlar SAYFAMIZ*/
+section.burclar {
+  background-color: lightgoldenrodyellow;
+}
+section.burclar h1,
+h4 {
+  margin-top: 0;
+  background-color: bisque;
+  text-align: center;
+}
+
+section.burclar article {
+  border: 1px solid black;
+  margin: 100px;
+}
+section.burclar article:hover {
+  background-color: aqua;
+}
+
+section.burclar a {
+  margin-bottom: 200px;
+  font-size: larger;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: pink;
+}
+section.burclar a::after {
+  content: "⬆️";
+}

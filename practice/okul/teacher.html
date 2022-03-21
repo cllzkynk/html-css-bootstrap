@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/okul.css" />
+  </head>
+  <body class="teacher">
+    <section class="teacher">
+      <h1>ÖĞRETMEN KAYIT FORMU</h1>
+      <form class="teacher">
+        <p>
+          <label for="ad">İsim</label>
+          <input
+            type="text"
+            id="ad"
+            placeholder="Lütfen adınızı giriniz"
+            required
+          />
+        </p>
+        <p>
+          <label for="soyad">Soyad</label>
+          <input
+            type="text"
+            id="soyad"
+            placeholder="Lütfen soyadınızı giriniz."
+            required
+          />
+        </p>
+        <p><label for="tel">Tel</label> <input type="tel" id="tel" /></p>
+
+        <p>
+          <label for="adres">Adres</label>
+          <textarea id="adres" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <label for="mail">Email</label>
+          <input type="email" id="mail" />
+        </p>
+        <p>
+          <label for="brans">Branş</label>
+          <select name="brans" id="brans">
+            <option value="mat">Matematik</option>
+            <option value="edb">Edebiyat</option>
+            <option value="kim">Kimya</option>
+            <option value="fzk">Fizik</option>
+            <option value="geo">Geometri</option>
+          </select>
+        </p>
+
+        <p><input type="submit" value="kaydet" /> <input type="reset" /></p>
+        <a href="main.html"><i class="fa-solid fa-arrow-left"></i>&nbsp Geri</a>
+      </form>
+    </section>
+  </body>
+</html>

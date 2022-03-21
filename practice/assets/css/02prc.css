@@ -1,0 +1,15 @@
+body {
+  background: url("../img/pattern2.jpg") center/cover no-repeat;
+  font-family: "Sansita Swashed", cursive;
+}
+div {
+  text-align: center;
+  background: url("../img/pattern3.jpg") center/cover no-repeat;
+  font-weight: bold;
+}
+.container {
+  margin-top: 100px;
+}
+.icerik {
+  padding: 50px 50px 50px 50px;
+}

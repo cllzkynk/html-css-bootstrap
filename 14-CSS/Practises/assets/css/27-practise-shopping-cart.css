@@ -1,0 +1,57 @@
+:root{
+  --color1: #3c342c;
+  --color2: #fb9b8b;
+  --color3: #efefef;
+}
+
+body{
+  font-family: Roboto;
+}
+
+.shopping-cart{
+  background-color: var(--color3);
+}
+
+.shopping-cart th,
+.shopping-cart td{
+  padding:0.5rem;
+}
+
+.shopping-cart thead th{
+  background-color: var(--color2);
+}
+
+.shopping-cart tbody td{
+  background-color: white;
+}
+
+.shopping-cart tbody tr:nth-child(odd) td{
+  background-color: var(--color3);
+}
+
+.shopping-cart th:nth-child(1),
+.shopping-cart th:nth-child(2),
+.shopping-cart td:nth-child(5),
+.shopping-cart td:nth-child(4){
+  text-align: right;
+}
+
+.shopping-cart td:nth-child(3){
+  text-align: center;
+}
+
+.shopping-cart tbody a{
+  color: var(--color1);
+}
+
+.shopping-cart tbody a:hover{
+  color: var(--color2);
+}
+
+.buttons button{
+  background-color: var(--color2);
+  padding: .5rem 1rem;
+  border:0;
+  margin-top:1rem;
+  font-size:1.1rem;
+}

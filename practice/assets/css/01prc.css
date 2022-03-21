@@ -1,0 +1,35 @@
+body {
+  background: url("../img/pattern1.jpg") center/cover no-repeat;
+  font-family: "Rubik", sans-serif;
+}
+nav {
+  background-color: bisque;
+}
+h1,
+h3 {
+  text-align: center;
+  background-color: aqua;
+}
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+}
+ul {
+  list-style: "🍓";
+}
+li {
+  padding: 10px;
+}
+div {
+  width: 50%;
+}
+.icerik {
+  background-color: azure;
+  text-align: center;
+}
+.liste {
+  background-color: beige;
+  padding-bottom: 20px;
+}

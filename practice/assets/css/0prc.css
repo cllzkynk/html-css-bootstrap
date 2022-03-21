@@ -1,0 +1,39 @@
+body {
+  background-color: beige;
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+.icerik {
+  background-color: gray;
+  display: flex;
+  gap: 7rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+.container {
+  background-color: bisque;
+  position: relative;
+}
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+
+  transition: transform 1s;
+}
+
+button:hover {
+  background-color: white;
+  transform: rotate(180deg);
+}

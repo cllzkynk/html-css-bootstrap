@@ -1,0 +1,19 @@
+body {
+  background: url("../img/resim5.jpg") center/cover no-repeat;
+}
+h1 {
+  background-color: aquamarine;
+  text-align: center;
+}
+article {
+  font-size: 1rem;
+  background-color: beige;
+}
+.liste {
+  background-color: azure;
+  width: 300px;
+}
+.giris {
+  background-color: bisque;
+  width: 300px;
+}
