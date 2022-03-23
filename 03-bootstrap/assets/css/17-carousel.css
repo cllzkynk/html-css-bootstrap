@@ -1,0 +1,9 @@
+.carousel .carousel-item{
+    height: 91vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel .carousel-caption h5{
+    font-size: 3rem;
+}

@@ -1,17 +1,17 @@
 .bg-primary{
     background-color: rgb(46, 218, 3) !important;
 }
-​
+
 .navbar-light .navbar-nav .nav-link.active, 
 .navbar-light .navbar-nav .show>.nav-link{
     color: rgb(39, 1, 128);
     font-weight: 700;
 }
-​
+
 .navbar-light .navbar-nav .nav-link{
     color:rgb(150, 14, 14);
 }
-​
+
 .navbar{
     border-radius: 5rem;
 }
