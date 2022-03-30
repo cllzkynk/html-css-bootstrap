@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="radio" name="maastTipi" id="emekli" onchange="hesapla('e')">
+    <label for="emekli">Emekli</label>
+    <input type="radio" name="maastTipi" id="calisan" onchange="hesapla('c')">
+    <label for="calisan">Çalışan</label>
+    <br> 
+    <br> 
+    <label   >Maasiniz : </label>
+    <label id="lblSonuc"></label>
+
+
+    console.log()
+
+    <script>
+        function hesapla(tip){
+         let maas=20000;
+           document.querySelector("#lblSonuc").innerText =tip=='e'?maas*0.9:maas;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="" id="txtSayi1" placeholder="Başlangıcı giriniz">
+    <input type="number" name="" id="txtSayi2" placeholder="Bitişi giriniz">
+    <button onclick="hesapla()">Hesapla</button>
+<p class="sonuc">
+
+</p>
+    
+
+    <script>
+
+        function hesapla(){
+      let sayi1=document.querySelector("#txtSayi1").value;
+      let sayi2=document.querySelector("#txtSayi2").value;
+       let son="";
+
+       if(sayi1<=0 &&sayi2<=0){
+           alert("makul sayilar giriniz")
+           return;
+       }
+       if(sayi2<sayi1){
+                temp = sayi1;
+                sayi1 = sayi2;
+                sayi2 = temp;
+            }
+
+       sayi1 = Number(sayi1);
+       sayi2 = Number(sayi2);
+       let i =0;
+        for(let i=sayi1;i<=sayi2;i++){
+      
+           if(i%7==0) {
+          
+      son+='<p>'+i+'</p>';
+           }  
+           document.querySelector(".sonuc").innerHTML = son ;
+        }
+
+    }
+   </script>
+
+
+</body>
+</html>
