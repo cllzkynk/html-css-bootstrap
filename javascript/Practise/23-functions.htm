@@ -16,7 +16,9 @@
             console.log(`Benim yaşım ${2022 - dt}`);
         }
         function yasHesapla3(dt){
-            let yas = 2022 - dt;
+                let tarih=new Date();
+
+            let yas = tarih.getFullYear() - dt;
             return yas;
         }
         yasHesapla1();
