@@ -52,6 +52,8 @@ const getirKisi = (i) => {
   baslik.textContent = getir.ad;
   yas.textContent = getir.yas;
   meslek.textContent = getir.meslek;
+ console.log(getir);
+
 };
 
 let index = 0;
@@ -69,3 +71,10 @@ ileriBtn.addEventListener("click", function () {
   }
   getirKisi(index);
 });
+
+gizli.classList.toggle('goster');
+
+Math.floor(Math.random()*renkler.length);
+
+
+renk.textContent;
