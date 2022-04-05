@@ -1,0 +1,11 @@
+body {
+  background: url("../img/products/5.jpg") center/cover no-repeat;
+}
+.temel {
+  position: relative;
+}
+.icerik {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

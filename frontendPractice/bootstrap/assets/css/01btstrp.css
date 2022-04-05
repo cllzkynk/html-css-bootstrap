@@ -1,0 +1,38 @@
+.sayfa {
+  height: 100vh;
+  background: url("../img/modal/5.jpg") center/cover no-repeat;
+  position: relative;
+}
+.icerik {
+  background-color: aliceblue;
+  width: 50vw;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+.icerik h1 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: burlywood;
+  margin-bottom: 0;
+}
+.temel {
+  padding: 3rem;
+  background-color: bisque;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: coral !important;
+}
+.btn-primary:hover {
+  background-color: antiquewhite !important;
+  color: black;
+}
+/*.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: coral;
+  border-color: black;
+  box-shadow: 0 0 0 0.25rem rgba(253, 114, 49, 0.5);
+}*/

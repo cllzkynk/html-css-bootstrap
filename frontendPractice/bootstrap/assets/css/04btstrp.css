@@ -1,0 +1,28 @@
+body {
+  background-color: darkcyan;
+}
+.container {
+  background-color: bisque;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.card {
+  margin-bottom: 1rem;
+}
+.card-header,
+.card-body {
+  text-align: center;
+}
+.card-header {
+  background-color: lightgray;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: crimson;
+}
+.btn-primary {
+  background-color: antiquewhite !important;
+  color: black;
+}
+.btn-primary:hover {
+  background-color: brown !important;
+}
