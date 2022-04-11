@@ -1,0 +1,213 @@
+:root{
+    --color1:rgb(235, 178, 17);
+    --color2: rgb(4, 213, 250);
+    --color3: rgb(248, 249, 250);
+    --color4: rgb(49, 49, 49);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--color1);
+    border-color: var(--color1);
+}
+
+.btn-primary:hover {
+    background-color: var(--color2);
+    border-color: var(--color2);
+}
+
+
+.views,
+.gallery,
+.appointment-form{
+    margin-bottom: 100px;
+}
+
+
+/* TOPBAR */
+.topbar{
+    background-color: var(--color4) ;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.topbar ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    gap:1rem;
+}
+
+.topbar i{
+    color: var(--color2);
+}
+
+.topbar .social-links i{
+    font-size:1.5rem;
+}
+
+
+/* NAVBAR */
+.navbar{
+    font-size: 1.3rem;  
+} 
+
+.navbar ul a{
+    display: inline-block;
+    padding: 0.5rem 1rem !important;
+    border-radius: 2rem;
+}
+
+.navbar ul a:hover{
+    background-color: var(--color1);
+    color:white !important;
+}
+
+@media(max-width: 570px){
+    .navbar-brand img{
+        width:250px;
+    }
+}
+
+
+
+/* SLIDER */
+.carousel-caption {
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    left: 2.5rem;
+    text-align: left;
+    width:40%;
+}
+
+.carousel-caption h5{
+    font-size: 4rem;
+    text-shadow: 1px 1px 3px black;
+    color:white;
+}
+
+.carousel-caption p{
+    font-size: 1.3rem;
+}
+
+.carousel-control-next, 
+.carousel-control-prev{
+    align-items: flex-end;
+    padding-bottom: 2rem;
+}
+
+.carousel-control-prev {
+    right: 1.5rem;
+    left:auto;
+}
+
+
+/*WHY US*/
+.why-us{
+    text-align: center;
+    position: relative;
+    top:-100px;
+    z-index: 2;
+}
+
+@media(max-width:750px){
+    .why-us{
+        position: static;
+        margin-top:2rem;
+        margin-bottom:100px;
+    }
+}
+
+.why-us div[class^="col"]:first-child .card{
+    background-color: var(--color1);
+}
+
+.why-us i{
+    font-size: 3rem;
+    color: var(--color2);
+}
+
+/* VIEWS */
+.views{
+    text-align: center;
+}
+
+.views i{
+    font-size: 3rem;
+    color: var(--color2);
+}
+
+.views h3{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--color1);
+}
+
+
+/* GALLERY */
+.gallery img{
+    border-radius: 1rem;
+    transition: transform 0.4s;
+}
+
+.gallery img:hover{
+    transform: scale(1.3);
+}
+
+.gallery div[class^="col"]{
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+/* *APPOINTMENT FORM */
+.appointment-form{
+    background-color: #efefef;
+    padding: 3rem;
+}
+
+.appointment-form h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+/*FOOTER*/
+footer{
+    padding:3rem;
+    background-color: var(--color4) ;
+    color: rgb(218, 218, 218);
+}
+
+footer ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+footer .contact li{
+    margin-bottom: 1rem;
+}
+
+footer .col:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--color1);
+}
+
+footer a:hover{
+    color: var(--color2);
+}
+
+footer h3{
+    color: var(--color2);
+}
