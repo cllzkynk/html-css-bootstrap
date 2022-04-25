@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination Complete</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="section-title">
+        <h1>Loading...</h1>
+        <div class="underline"></div>
+      </div>
+      <div class="sec">
+        <form>
+          <select id="sec" name="sec">
+            <option class ="a" value="10" selected>Sıralama Şeklini Seçiniz</option>
+            <option class ="a" value="10">10'lu Sırala</option>
+            <option class ="a" value="20">20'li Sırala</option>
+            <option class ="a" value="30">30'lu Sırala</option>
+          </select>
+        </form>
+      </div>
+      
+      <section class="followers">
+        <div class="container"></div>
+
+        <div class="btn-container"></div>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

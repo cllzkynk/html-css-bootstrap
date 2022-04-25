@@ -8,26 +8,26 @@ function harfEkle() {
   if (harfIndex < cumleler[cumleIndex].length) {
     yazi.textContent += cumleler[cumleIndex].charAt(harfIndex);
     harfIndex++;
-    setTimeout(harfEkle, 1000);
+    setTimeout(harfEkle, 500);
   } else {
-    setTimeout(harfSil, 1000);
+    setTimeout(harfSil, 500);
   }
 }
 
 function harfSil() {
   if (harfIndex >= 0) {
-    yazi.textContent += cumleler[cumleIndex].substring(0, harfIndex - 1);
+    yazi.textContent = cumleler[cumleIndex].substring(0, harfIndex - 1);
     harfIndex--;
-    setTimeout(harfSil, 1000);
+    setTimeout(harfSil, 500);
   } else {
     cumleIndex++;
-    if (cumleIndex > cumleler.length) {
+    if (cumleIndex >= cumleler.length) {
       cumleIndex = 0;
     }
-    setTimeout(harfEkle, 1000);
+    setTimeout(harfEkle, 500);
   }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(harfEkle, 1000);
+  setTimeout(harfEkle, 1500);
 });
